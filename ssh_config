@@ -1,0 +1,14 @@
+# CAEN
+Host caen
+    HostName login.engin.umich.edu
+    User sphanson
+    Compression yes
+    ControlMaster auto
+    ControlPath ~/.ssh/_%r@%h:%p
+    ControlPersist 14400
+
+# GitHub
+Host github
+    HostName github.com
+    User sphanson
+    IdentityFile ~/.ssh/id_rsa

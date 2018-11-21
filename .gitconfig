@@ -1,0 +1,14 @@
+[user]
+    name = Spencer Hanson
+    email = sphanson@umich.edu
+    username = sphanson
+[color]
+    ui = auto
+[color "branch"]
+    current = cyan
+    local = green
+    remote = red
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
